@@ -8,6 +8,7 @@ module.exports = defineConfig(
   {
     e2e:
     {
+      chromeWebSecurity: false, // Disable Chrome's strict security features for testing
       specPattern: '**/*.feature',
       baseUrl,
       video: false,
